@@ -1,0 +1,23 @@
+.container .text{
+    background-color: #FFF000;
+    color: #FF0000;
+    font-size:20px;
+    text-align: center;
+}
+
+/* Trying to use a combination of a type selector and class selector
+
+div .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container p{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
