@@ -26,16 +26,8 @@ body {
   gap: 15px;
 }
 
-.header-container{
-  display: flex;
-}
-.close-container{
-  display: flex;
-  margin: auto;
-}
-
-.main-text{
-  vertical-align: middle;
+.btn-container{
+  margin-top: 10px;
 }
 
 .modal {
@@ -44,6 +36,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 15px;
+
 }
 
 .icon {
