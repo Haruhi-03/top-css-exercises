@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 16px;
+  padding-left: 0 16px;
   font-weight: 900;
   font-size: 32px;
 }
@@ -26,10 +26,10 @@ body {
 .card-container{
   display: flex;
   flex-wrap:wrap;
-  gap: 16px;
+  gap: 32px;
   flex: 1;
   padding: 48px;
-  margin-right: 345px;
+  margin-right: 150px;
 }
 
 .footer {
@@ -46,22 +46,23 @@ body {
   background: royalblue;
   box-sizing: border-box;
   padding: 16px;
-  font-size: 24px;
+  flex-shrink: 0;
 }
 
 ul{
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+}
+
+li{
+  margin-bottom: 16px;
 }
 
 a{
   text-decoration: none;
   color: whitesmoke;
- 
+  font-size: 24px;
 }
 
 .card {
@@ -69,6 +70,5 @@ a{
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
-  flex: 1 1 250px;
-  height: 250px;
+  width: 300px;
 }
